@@ -127,6 +127,10 @@ class MqttService {
 
     this.client.unsubscribe(topic);
   };
+
+  disconnect =()=>{
+    this.client.disconnect();
+  }
 }
 
 export default MqttService.getInstance();
