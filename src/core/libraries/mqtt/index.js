@@ -12,7 +12,7 @@ const myStorage = {
   getItem: key => myStorage[key],
 
   removeItem: key => {
-    deletemyStorage[key];
+    delete myStorage[key];
   }
 };
 
